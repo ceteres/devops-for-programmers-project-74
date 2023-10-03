@@ -4,6 +4,5 @@ services:
   app:
     build:
       context: .
-      dockerfile: Dockerfile
-    volumes:
-      - './app:/app'
+      dockerfile: Dockerfile.production
+    image: ceteres/devops-for-programmers-project-74
